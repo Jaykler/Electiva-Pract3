@@ -36,7 +36,7 @@ Electiva-Pract3/
 
 ```bash
 git clone https://github.com/Jaykler/Electiva-Pract3.git
-cd Electiva-Pract3
+
 ```
 2. Instala las dependencias:
    *npm install
@@ -50,5 +50,4 @@ El flujo de trabajo de GitHub Actions (`.github/workflows/ci.yml`) realiza las s
 
 - Instala las dependencias
 - Ejecuta las pruebas y genera el reporte de cobertura
-- Construye la aplicación (si aplica)
-- Despliega automáticamente a GitHub Pages
+
