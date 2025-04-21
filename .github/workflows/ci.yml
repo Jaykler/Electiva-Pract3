@@ -1,6 +1,8 @@
 
 name: CI/CD Pipeline
 
+
+
 on:
   push:
     branches: [ main ]
@@ -22,9 +24,11 @@ jobs:
     - name: Instalar dependencias
       run: npm install
 
+    - name: Fix Jest Permissions
+      run: chmod +x ./node_modules/.bin/jest # Added step
+
     - name: Ejecutar pruebas
       run: npm test -- --coverage
-
   deploy:
     needs: build-and-test
     runs-on: ubuntu-latest
