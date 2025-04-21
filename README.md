@@ -12,8 +12,16 @@ Aplicación web simple desarrollada en Node.js y Express, que implementa un pipe
 
 ## 📁 Estructura del proyecto
 
-Electiva-Pract3/ ├── .github/workflows/ci.yml ├── app.js ├── index.js ├── package.json ├── test/ │ └── app.test.js └── README.md
-
+```bash
+Electiva-Pract3/
+├── .github/workflows/ci.yml
+├── app.js
+├── index.js
+├── package.json
+├── test/
+│   └── app.test.js
+└── README.md
+```
 
 ## 🛠️ Requisitos
 
